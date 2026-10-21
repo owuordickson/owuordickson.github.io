@@ -262,51 +262,13 @@ ul {
 .profile-note>a {
   font-size:13px
 }
-.branch-art {
-  position:relative;
-  height:90px;
-  width:120px;
-  margin:12px 0 15px
-}
-.branch-art:before {
-  content:'';
-  position:absolute;
-  left:50px;
-  bottom:0;
-  width:2px;
-  height:83px;
-  background:var(--green)
-}
-.branch-art span {
-  position:absolute;
-  width:28px;
-  height:18px;
-  border-radius:0 70% 0 70%;
-  background:var(--green);
-  left:21px;
-  top:25px;
-  transform:rotate(20deg)
-}
-.branch-art span:nth-child(2) {
-  left:53px;
-  top:10px;
-  transform:rotate(-35deg)
-}
-.branch-art span:nth-child(3) {
-  left:23px;
-  top:55px
-}
-.branch-art span:nth-child(4) {
-  left:53px;
-  top:41px;
-  transform:rotate(-35deg)
-}
-.branch-art span:nth-child(5) {
-  left:43px;
-  top:0;
-  width:15px;
-  height:18px;
-  transform:rotate(45deg)
+.profile-photo {
+  display:block;
+  width:144px;
+  height:144px;
+  object-fit:cover;
+  border-radius:50%;
+  margin:18px 0 20px
 }
 .section-grid {
   display:grid;
@@ -721,12 +683,6 @@ ul {
   }
   .profile-note {
     min-height:0
-  }
-  .branch-art {
-    position:absolute;
-    right:20px;
-    top:25px;
-    opacity:.3
   }
   .profile-note h2 {
     font-size:1.8rem
