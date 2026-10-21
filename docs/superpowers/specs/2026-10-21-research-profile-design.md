@@ -1,6 +1,6 @@
 # Research profile and Owuor Lab website
 
-Status: design approved in conversation; written specification awaiting review.
+Status: approved by the user; implemented on the feature branch. See the implementation plan for verification results.
 
 ## Purpose and audience
 

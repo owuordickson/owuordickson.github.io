@@ -1,0 +1,11 @@
+---
+title: Service
+permalink: /service/
+description: Dickson Owuor's program committee membership, peer reviewing, academic leadership, and professional memberships.
+eyebrow: Contributing to the community
+intro: Supporting rigorous research, student opportunity, and collaboration across institutions.
+---
+<section class="section-grid" aria-labelledby="conference-service"><div><p class="eyebrow">Peer review</p><h2 id="conference-service">Conferences</h2></div><div class="timeline">{% for entry in site.data.service.conferences %}<article><p class="date">{{ entry.years | escape }}</p><h3>{{ entry.name | escape }}</h3><p>{{ entry.role | escape }}</p></article>{% endfor %}</div></section>
+<section class="section-grid" aria-labelledby="journal-service"><div><p class="eyebrow">Peer review</p><h2 id="journal-service">Journals</h2></div><div><p class="section-intro">Reviewer for the following international journals.</p><ul class="journal-list">{% for journal in site.data.service.journals %}<li>{{ journal | escape }}</li>{% endfor %}</ul></div></section>
+<section class="section-grid" aria-labelledby="academic-service"><div><p class="eyebrow">Academic leadership</p><h2 id="academic-service">Building connections</h2></div><div class="timeline">{% for entry in site.data.service.leadership %}<article><p class="date">{{ entry.years | escape }}</p><h3>{{ entry.role | escape }}</h3><p>{{ entry.institution | escape }}</p><p class="muted">{{ entry.description | escape }}</p></article>{% endfor %}</div></section>
+<section class="section-grid" aria-labelledby="memberships"><div><p class="eyebrow">Professional community</p><h2 id="memberships">Memberships</h2></div><ul class="journal-list">{% for membership in site.data.service.memberships %}<li>{{ membership | escape }}</li>{% endfor %}</ul></section>
