@@ -1,0 +1,10 @@
+---
+title: Teaching
+permalink: /teaching/
+description: Undergraduate and graduate computer science teaching and doctoral supervision by Dickson Owuor.
+eyebrow: Learning through inquiry
+intro: Teaching computer science through foundations, practical exploration, and research.
+---
+<section class="section-grid" aria-labelledby="courses"><div><p class="eyebrow">Undergraduate & graduate</p><h2 id="courses">Teaching areas</h2></div><div><p class="section-intro">I have taught computer science at Strathmore University for over a decade, across undergraduate and graduate programs. My teaching experience includes the following subjects.</p><ul class="course-list">{% for course in site.data.teaching.courses %}<li><span aria-hidden="true">↗</span>{{ course | escape }}</li>{% endfor %}</ul></div></section>
+<section class="section-grid" aria-labelledby="supervision"><div><p class="eyebrow">Research mentorship</p><h2 id="supervision">Doctoral supervision</h2><p class="muted">Co-supervision in collaboration with international research partners.</p></div><div>{% for group in site.data.teaching.supervision %}<h3 class="group-heading">{{ group.status | escape }}</h3><div class="timeline">{% for student in group.students %}<article><p class="date">{{ student.date | escape }}</p><h4>{{ student.name | escape }}</h4><p>{{ student.topic | escape }}</p><p class="muted">{{ student.institution | escape }}<br>Co-supervisors: {{ student.supervisors | escape }}</p></article>{% endfor %}</div>{% endfor %}</div></section>
+<section class="callout"><p class="eyebrow">Beyond the classroom</p><h2>Long-term, collaborative learning.</h2><p>I coordinate Strathmore University’s Vertically Integrated Project (VIP) program, supporting sustained collaboration through project-based work.</p><a class="text-link" href="https://sces.strathmore.edu/vip-strathmore/">Explore the VIP program <span aria-hidden="true">↗</span></a></section>

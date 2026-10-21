@@ -1,0 +1,32 @@
+title: Dickson Owuor
+tagline: Research & teaching
+description: Dickson Odhiambo Owuor's research in data-centric knowledge discovery, teaching, and Owuor Lab.
+url: https://owuordickson.github.io
+baseurl: ""
+lang: en
+email: owuordickson@gmail.com
+github_url: https://github.com/owuordickson
+timezone: Africa/Nairobi
+markdown: kramdown
+permalink: pretty
+strict_front_matter: true
+liquid:
+  error_mode: strict
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - CONTENT-LICENSE.md
+  - docs
+  - scripts
+  - vendor
+  - tmp
+  - node_modules
+  - .superpowers
+  - _site-preview

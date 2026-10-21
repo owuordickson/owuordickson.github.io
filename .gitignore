@@ -1,0 +1,27 @@
+# Jekyll output and caches
+_site/
+_site-preview/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Local Ruby dependencies and Bundler configuration
+.bundle/
+vendor/
+
+# Editors, operating system files, and local scratch work
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.superpowers/
+tmp/
+node_modules/
+
+# Local secrets; keep a documented example if one is ever needed
+.env
+.env.*
+!.env.example

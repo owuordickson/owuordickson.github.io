@@ -1,0 +1,25 @@
+---
+title: Publications
+permalink: /publications/
+description: Journal articles, conference papers, research software, and datasets by Dickson Odhiambo Owuor and collaborators.
+intro: Research articles, conference papers, software, and datasets. A record of ideas developed through collaboration.
+---
+<div class="publication-summary"><span>{{ site.data.publications | size }} contributions listed in the CV</span><a href="{{ '/assets/documents/owuor.pdf' | relative_url }}">Full curriculum vitae <span class="file-type">PDF</span></a></div>
+{% assign ordered = site.data.publications | sort: 'year' | reverse %}
+{% assign years = ordered | group_by: 'year' %}
+{% for year in years %}
+<section class="publication-year" aria-labelledby="year-{{ year.name }}">
+  <h2 id="year-{{ year.name }}">{{ year.name }}</h2>
+  <div class="publication-list">
+    {% for paper in year.items %}
+    <article class="publication" data-publication-type="{{ paper.type | escape }}">
+      <p class="publication-type">{{ paper.type | escape }}</p>
+      <h3>{% if paper.doi %}<a href="https://doi.org/{{ paper.doi | escape }}">{{ paper.title | escape }}</a>{% elsif paper.url %}<a href="{{ paper.url | escape }}">{{ paper.title | escape }}</a>{% else %}{{ paper.title | escape }}{% endif %}</h3>
+      <p class="authors">{{ paper.authors | escape }}</p>
+      <p class="venue">{{ paper.venue | escape }}{% if paper.pages %} · {{ paper.pages | escape }}{% endif %}</p>
+      {% if paper.doi %}<a class="paper-link" href="https://doi.org/{{ paper.doi | escape }}">DOI <span aria-hidden="true">↗</span><span class="sr-only"> for {{ paper.title | escape }}</span></a>{% elsif paper.url %}<a class="paper-link" href="{{ paper.url | escape }}">Read paper <span aria-hidden="true">↗</span><span class="sr-only">: {{ paper.title | escape }}</span></a>{% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}

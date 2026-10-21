@@ -1,0 +1,36 @@
+conferences:
+  - name: African Conference on Research in Computer Science & Applied Mathematics (CARI)
+    years: "2024–2026"
+    role: Program Committee Member
+  - name: International Conference on Information Processing and Management of Uncertainty in Knowledge-Based Systems (IPMU)
+    years: "2026"
+    role: Reviewer
+  - name: International Conference on Knowledge Discovery and Information Retrieval (KDIR)
+    years: "2021"
+    role: Reviewer
+
+journals:
+  - International Journal of Machine Learning and Cybernetics
+  - Scientific Reports
+  - Knowledge and Information Systems
+  - Journal of Experimental & Theoretical Artificial Intelligence
+  - Information Systems
+  - The Journal of Supercomputing
+
+leadership:
+  - role: Vertically Integrated Project (VIP) Program Coordinator
+    years: Since 2024
+    institution: Strathmore University
+    description: Launching and coordinating the VIP program.
+  - role: Partnerships Lead
+    years: Since 2021
+    institution: School of Computing and Engineering Sciences, Strathmore University
+    description: Building research-driven academic and industry partnerships with local and international institutions.
+  - role: Attachment Office Administrator
+    years: "2015–2020"
+    institution: School of Computing and Engineering Sciences, Strathmore University
+    description: Coordinating undergraduate internships, service-based learning, and work-based learning.
+
+memberships:
+  - Institute of Electrical and Electronics Engineers (IEEE)
+  - Engineers Board of Kenya (EBK)

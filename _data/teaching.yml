@@ -1,0 +1,38 @@
+courses:
+  - Computer Programming
+  - Introduction to Programming
+  - Object-oriented Programming
+  - Embedded Systems and Internet of Things
+  - Distributed Systems
+  - Data Mining, Storage and Retrieval
+
+supervision:
+  - status: Completed
+    students:
+      - name: Deperias Kerre
+        date: "Defended November 2025"
+        topic: Mining the Hetero-Structural Design and the Optoelectronic Characteristics of Quantum Cascade Lasers
+        institution: Université de Montpellier
+        supervisors: Anne Laurent and Kenneth Maussang
+      - name: Edmond Menya
+        date: "Defended July 2025"
+        topic: Enhancing Thematic Features for Event-based Surveillance Systems
+        institution: Université de Montpellier
+        supervisors: Mathieu Roche and Roberto Interdonato
+      - name: Stephen Obonyo
+        date: "Defended December 2024"
+        topic: Bioinformatic Computation With Active Learning
+        institution: Université Paris 8
+        supervisors: Nicolas Jouandeau
+  - status: Ongoing
+    students:
+      - name: Daniel Ruiru
+        date: "Expected December 2027 (tentative)"
+        topic: Resource Allocation Problems with Deep Reinforcement Learning
+        institution: Université Paris 8
+        supervisors: Nicolas Jouandeau
+      - name: Kelvin Kibunja
+        date: "Expected December 2028 (tentative)"
+        topic: Counterfactual explanations using Bayesian Networks
+        institution: Universidad de Castilla-La Mancha
+        supervisors: Gámez Martín and Puerta Callejón
