@@ -16,7 +16,7 @@ hero: true
     <span class="note-index">PROFILE / 01</span>
     <img class="profile-photo" src="{{ '/assets/images/owuor.jpg' | relative_url }}" alt="Dickson Odhiambo Owuor" width="600" height="600">
     <p class="eyebrow">Research & teaching</p>
-    <h2>Senior Researcher/Lecturer</h2>
+    <h2>Senior Researcher</h2>
     <p>School of Computing and Engineering Sciences<br><strong>Strathmore University</strong></p>
     <p class="location">Nairobi, Kenya</p>
     <a href="mailto:{{ site.email }}">Let’s connect <span aria-hidden="true">↗</span></a>
