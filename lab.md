@@ -5,7 +5,7 @@ description: Owuor Lab explores data-centric knowledge discovery through gradual
 hero: true
 ---
 
-<section class="lab-hero" aria-labelledby="lab-title"><h1 id="lab-title" class="sr-only">Owuor Lab</h1><p class="eyebrow">Intelligence research</p><img class="lab-logo" src="{{ '/assets/images/owlab-green.png' | relative_url }}" alt="Owuor Lab — intelligence research" width="990" height="290"><p class="hero-statement">Patterns. Connections.<br>Discovery.</p><p class="lede">Exploring how data, structure, and learning can advance scientific understanding.</p></section>
+<section class="lab-hero" aria-labelledby="lab-title"><h1 id="lab-title" class="sr-only">Owuor Lab</h1><p class="eyebrow"></p><img class="lab-logo" src="{{ '/assets/images/owlab-green.png' | relative_url }}" alt="Owuor Lab — intelligence research" width="990" height="290"><p class="hero-statement">Patterns. Connections.<br>Discovery.</p><p class="lede">Exploring how data, structure, and learning can advance scientific understanding.</p></section>
 
 <section class="section-grid" aria-labelledby="lab-about"><div><p class="eyebrow">Our focus</p><h2 id="lab-about">Knowledge from complexity</h2></div><div class="prose"><p>Owuor Lab brings together the research directions of Dickson Odhiambo Owuor: data-centric knowledge discovery, interpretable representations, and learning methods for scientific applications.</p><p>The work connects algorithm development with questions from microscopy, bioinformatics, disease surveillance, and scientific knowledge representation. Open research software helps make these methods reusable.</p></div></section>
 
